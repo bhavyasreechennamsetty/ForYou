@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* Smooth scrolling and selection colors */
+      html {
+        scroll-behavior: smooth;
+      }
+      ::selection {
+        background: rgba(236, 72, 153, 0.3);
+        color: #f9a8d4;
+      }
+      
+      /* Scrollbar styling */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #111827;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: rgba(236, 72, 153, 0.5);
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgba(236, 72, 153, 0.7);
+      }
+    </style>
+    <title>For You</title>
+  </head>
+  <body class="bg-gray-900 text-gray-200 min-h-screen">
+    <div id="root" class="min-h-screen"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
