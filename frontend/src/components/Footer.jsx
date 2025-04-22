@@ -15,7 +15,7 @@ const Footer = () => {
         alt="Prescripto Logo" 
       />
       <p className='w-full md:w-2/3 text-gray-400 leading-relaxed'>
-        Prescripto is your trusted healthcare partner, connecting you with 100+ certified doctors for seamless appointment booking.
+        ForYou is your trusted healthcare partner, connecting you with 100+ certified doctors for seamless appointment booking.
       </p>
       <div className='flex gap-4 mt-5'>
         <FaFacebookF 
@@ -50,11 +50,11 @@ const Footer = () => {
       <ul className='flex flex-col gap-3 text-gray-400'>
         <li className='flex items-center gap-2 hover:text-pink-300 cursor-pointer transition-colors duration-200'>
           <FaPhone size={14} />
-          +1-212-456-7890
+          +91 1234567890
         </li>
         <li className='flex items-center gap-2 hover:text-pink-300 cursor-pointer transition-colors duration-200'>
           <FaEnvelope size={14} />
-          greatstackdev@gmail.com
+          ForYou@gmail.com
         </li>
       </ul>
     </div>
@@ -65,7 +65,7 @@ const Footer = () => {
   <div className='mt-10'>
     <hr className='border-gray-700' />
     <p className='py-5 text-sm text-center text-gray-500'>
-      Copyright © {new Date().getFullYear()} Prescripto.com - All Rights Reserved.
+      Copyright © {new Date().getFullYear()} ForYou.com - All Rights Reserved.
     </p>
   </div>
 </div>

@@ -40,8 +40,8 @@ const Contact = () => {
           OUR OFFICE
         </h3>
         <p className='text-lg mt-3 text-gray-300'>
-          54709 Willms Station<br />
-          Suite 350, Washington, USA
+          1234 JubliHills<br />
+          Suite 350, Hyderabad, India
         </p>
       </div>
       
@@ -53,8 +53,8 @@ const Contact = () => {
           CONTACT INFO
         </h3>
         <p className='text-lg mt-3 text-gray-300'>
-          Tel: (415) 555-0132<br />
-          Email: greatstackdev@gmail.com
+          Tel: (+91) 1234567890<br />
+          Email: ForYou@gmail.com
         </p>
       </div>
 

@@ -20,23 +20,23 @@ const About = () => {
         <img 
           className='w-full h-full object-cover' 
           src={assets.about_image} 
-          alt="About Prescripto" 
+          alt="About ForYou" 
         />
       </div>
   
       {/* Text Content */}
       <div className='lg:w-1/2 space-y-6 text-gray-300'>
         <p className='text-lg leading-relaxed'>
-          Welcome to <span className='text-pink-300 font-medium'>Prescripto</span>, your trusted partner in managing your healthcare needs conveniently and efficiently. At Prescripto, we understand the challenges individuals face when it comes to scheduling doctor appointments and managing their health records.
+          Welcome to <span className='text-pink-300 font-medium'>ForYou</span>, your trusted partner in managing your healthcare needs conveniently and efficiently. At ForYou, we understand the challenges individuals face when it comes to scheduling doctor appointments and managing their health records.
         </p>
         
         <p className='text-lg leading-relaxed'>
-          Prescripto is committed to excellence in healthcare technology. We continuously strive to enhance our platform, integrating the latest advancements to improve user experience and deliver superior service. Whether you're booking your first appointment or managing ongoing care, Prescripto is here to support you every step of the way.
+          ForYou is committed to excellence in healthcare technology. We continuously strive to enhance our platform, integrating the latest advancements to improve user experience and deliver superior service. Whether you're booking your first appointment or managing ongoing care, ForYou is here to support you every step of the way.
         </p>
   
         <h3 className='text-xl font-bold text-pink-300 mt-8'>Our Vision</h3>
         <p className='text-lg leading-relaxed'>
-          Our vision at Prescripto is to create a seamless healthcare experience for every user. We aim to bridge the gap between patients and healthcare providers, making it easier for you to access the care you need, when you need it.
+          Our vision at ForYou is to create a seamless healthcare experience for every user. We aim to bridge the gap between patients and healthcare providers, making it easier for you to access the care you need, when you need it.
         </p>
       </div>
     </div>
